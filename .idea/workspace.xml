@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe26acd7-725d-4bbf-9e24-28ff1b3bdbf1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testDB.db" afterPath="$PROJECT_DIR$/testDB.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
     </list>
@@ -14,7 +15,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/TableBus$createDB.coverage" NAME="createDB Coverage Results" MODIFIED="1510595672151" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TableBus$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1510770966624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TableBus$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1510773249348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TableBus$main.coverage" NAME="main Coverage Results" MODIFIED="1510700086749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
@@ -31,13 +32,13 @@
       <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+            <state relative-caret-position="221">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="e#16#30#0" expanded="true" />
-                <marker date="1510772744394" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
-                <marker date="1510772744394" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
-                <marker date="1510772744394" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
+                <marker date="1510773249186" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
+                <marker date="1510773249186" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
+                <marker date="1510773249186" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
               </folding>
             </state>
           </provider>
@@ -46,7 +47,7 @@
       <file leaf-file-name="main1.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="476">
               <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
               <folding>
                 <element signature="e#15#29#0" expanded="true" />
@@ -81,7 +82,15 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="hardntrash &lt;hardntrash@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -383,19 +392,26 @@
       <option name="presentableId" value="Default" />
       <updated>1510504661789</updated>
     </task>
+    <task id="LOCAL-00001" summary="Убрал на время функцию показать ближайшие автобусф">
+      <created>1510772810583</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510772810583</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1632" y="264" width="1366" height="732" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10614934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10614934" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3960827" sideWeight="0.5625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3952" sideWeight="0.5651537" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32854864" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32752994" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3952" sideWeight="0.4375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3952" sideWeight="0.43484625" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -443,6 +459,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Убрал на время функцию показать ближайшие автобусф" />
+    <option name="LAST_COMMIT_MESSAGE" value="Убрал на время функцию показать ближайшие автобусф" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="63" />
@@ -456,9 +476,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#30#0" expanded="true" />
-            <marker date="1510772744394" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
-            <marker date="1510772744394" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
-            <marker date="1510772744394" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
+            <marker date="1510773249186" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
+            <marker date="1510773249186" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
+            <marker date="1510773249186" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
           </folding>
         </state>
       </provider>
@@ -480,9 +500,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#30#0" expanded="true" />
-            <marker date="1510772744394" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
-            <marker date="1510772744394" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
-            <marker date="1510772744394" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
+            <marker date="1510773249186" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
+            <marker date="1510773249186" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
+            <marker date="1510773249186" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
           </folding>
         </state>
       </provider>
@@ -504,9 +524,9 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#16#30#0" expanded="true" />
-            <marker date="1510772744394" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
-            <marker date="1510772744394" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
-            <marker date="1510772744394" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
+            <marker date="1510773249186" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
+            <marker date="1510773249186" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
+            <marker date="1510773249186" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
           </folding>
         </state>
       </provider>
@@ -552,9 +572,9 @@
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#16#30#0" expanded="true" />
-            <marker date="1510772744394" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
-            <marker date="1510772744394" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
-            <marker date="1510772744394" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
+            <marker date="1510773249186" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
+            <marker date="1510773249186" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
+            <marker date="1510773249186" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
           </folding>
         </state>
       </provider>
@@ -589,9 +609,9 @@
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
             <element signature="e#16#30#0" expanded="true" />
-            <marker date="1510772744394" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
-            <marker date="1510772744394" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
-            <marker date="1510772744394" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
+            <marker date="1510773249186" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
+            <marker date="1510773249186" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
+            <marker date="1510773249186" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
           </folding>
         </state>
       </provider>
@@ -615,9 +635,9 @@
           <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
           <folding>
             <element signature="e#16#30#0" expanded="true" />
-            <marker date="1510772744394" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
-            <marker date="1510772744394" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
-            <marker date="1510772744394" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
+            <marker date="1510773249186" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
+            <marker date="1510773249186" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
+            <marker date="1510773249186" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
           </folding>
         </state>
       </provider>
@@ -663,9 +683,9 @@
           <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
             <element signature="e#16#30#0" expanded="true" />
-            <marker date="1510772744394" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
-            <marker date="1510772744394" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
-            <marker date="1510772744394" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
+            <marker date="1510773249186" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
+            <marker date="1510773249186" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
+            <marker date="1510773249186" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
           </folding>
         </state>
       </provider>
@@ -700,9 +720,9 @@
           <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
           <folding>
             <element signature="e#16#30#0" expanded="true" />
-            <marker date="1510772744394" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
-            <marker date="1510772744394" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
-            <marker date="1510772744394" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
+            <marker date="1510773249186" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
+            <marker date="1510773249186" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
+            <marker date="1510773249186" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
           </folding>
         </state>
       </provider>
@@ -726,9 +746,9 @@
           <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#16#30#0" expanded="true" />
-            <marker date="1510772744394" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
-            <marker date="1510772744394" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
-            <marker date="1510772744394" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
+            <marker date="1510773249186" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
+            <marker date="1510773249186" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
+            <marker date="1510773249186" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
           </folding>
         </state>
       </provider>
@@ -836,7 +856,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
+        <state relative-caret-position="476">
           <caret line="52" column="13" lean-forward="false" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
           <folding>
             <element signature="e#15#29#0" expanded="true" />
@@ -849,13 +869,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="46" column="14" lean-forward="true" selection-start-line="46" selection-start-column="14" selection-end-line="46" selection-end-column="14" />
+        <state relative-caret-position="221">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
             <element signature="e#16#30#0" expanded="true" />
-            <marker date="1510772744394" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
-            <marker date="1510772744394" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
-            <marker date="1510772744394" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
+            <marker date="1510773249186" expanded="true" signature="169:197" ph="PRAGMA TABLE... " />
+            <marker date="1510773249186" expanded="true" signature="404:445" ph="ALTER TABLE busTable... " />
+            <marker date="1510773249186" expanded="true" signature="516:538" ph="SELECT * FRO... busTable" />
           </folding>
         </state>
       </provider>

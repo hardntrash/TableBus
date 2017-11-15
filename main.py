@@ -46,7 +46,8 @@ def view_all_bus():
 
 view_all_bus()
 now = datetime.datetime.now()
-print("Время: %s:%s" % (now.hour, now.minute))
+print("Время: %s" % now.strftime("%H:%M")
+)
 # add_stop()
 c.close()
 conn.close()
